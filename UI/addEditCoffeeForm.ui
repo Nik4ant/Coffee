@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>405</width>
+    <height>285</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Кофеёчек 2</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>401</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="vlayout_main">
+    <item>
+     <widget class="QTabWidget" name="tab_widget">
+      <property name="tabShape">
+       <enum>QTabWidget::Rounded</enum>
+      </property>
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="tab_add">
+       <attribute name="title">
+        <string>Добавить</string>
+       </attribute>
+       <widget class="QWidget" name="verticalLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>381</width>
+          <height>251</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="vlayout_add_main">
+         <item>
+          <layout class="QFormLayout" name="form_layout_add">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_name">
+             <property name="text">
+              <string>Название</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="line_edit_name_add"/>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_fired_level">
+             <property name="text">
+              <string>Степень обжарки</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="line_edit_fired_level_add"/>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_is_grounded">
+             <property name="text">
+              <string>Молотый</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QCheckBox" name="check_box_is_grounded_add">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="label_taste_description">
+             <property name="text">
+              <string>Описание вкуса</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QLineEdit" name="line_edit_taste_description_add"/>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="label_price">
+             <property name="text">
+              <string>Цена</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QDoubleSpinBox" name="double_spin_box_price_add"/>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="label_size">
+             <property name="text">
+              <string>Объём</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="QDoubleSpinBox" name="double_spin_box_size_add"/>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="button_add">
+           <property name="text">
+            <string>Добавить</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_edit">
+       <attribute name="title">
+        <string>Редактировать</string>
+       </attribute>
+       <widget class="QWidget" name="verticalLayoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>381</width>
+          <height>251</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="vlayout_edit_main">
+         <item>
+          <layout class="QFormLayout" name="form_layout_edit">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_id_2">
+             <property name="text">
+              <string>ID</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_name_2">
+             <property name="text">
+              <string>Название</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_fired_level_2">
+             <property name="text">
+              <string>Степень обжарки</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="label_is_grounded_2">
+             <property name="text">
+              <string>Молотый</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="label_taste_description_2">
+             <property name="text">
+              <string>Описание вкуса</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="label_price_2">
+             <property name="text">
+              <string>Цена</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="0">
+            <widget class="QLabel" name="label_size_2">
+             <property name="text">
+              <string>Объём</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="QDoubleSpinBox" name="double_spin_box_price_edit"/>
+           </item>
+           <item row="6" column="1">
+            <widget class="QDoubleSpinBox" name="double_spin_box_size_edit"/>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="line_edit_name_edit">
+             <property name="text">
+              <string>Не выбрано для редактирования</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLineEdit" name="line_edit_fired_level_edit">
+             <property name="text">
+              <string>Не выбрано для редактирования</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QLineEdit" name="line_edit_taste_description_edit">
+             <property name="text">
+              <string>Не выбрано для редактирования</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QCheckBox" name="check_box_is_grounded_edit">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="line_edit_id">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="button_save_changes">
+           <property name="text">
+            <string>Сохранить</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
